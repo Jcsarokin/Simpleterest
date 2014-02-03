@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', github: "twbs/bootstrap-sass"
 gem "devise"
 gem "paperclip", '~> 3.0'
+gem "aws-sdk", '~> 1.16.1'
+
 
 group :development, :test do
 	gem 'sqlite3'
